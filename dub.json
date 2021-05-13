@@ -1,0 +1,14 @@
+{
+	"authors": [
+		"mike"
+	],
+	"dependencies": {
+		"asdf": "~>0.7.8",
+		"commandr": "~>0.2.0",
+		"requests": "~>2.0.0",
+		"urld": "~>2.1.1"
+	},
+	"description": "TrueRSS CLI",
+	"license": "MIT",
+	"name": "truerss-cli"
+}
