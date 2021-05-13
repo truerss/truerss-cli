@@ -23,7 +23,7 @@ void main(string[] args)
 	);
 
 	auto result = new Program("truerss-cli", "1.0.0")
-		.summary("CLI for TrueRSS reader")
+		.summary("Command Line Interface for TrueRSS reader")
 		.add(
 			new Command("all").summary("Display all sources")
 		)

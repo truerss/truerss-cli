@@ -2,7 +2,7 @@
 
 ```
 ./truerss-cli -h                                  
-truerss-cli: CLI for TrueRSS reader (1.0.0)
+truerss-cli: Command Line Interface for TrueRSS reader (1.0.0)
 
 USAGE
   $ truerss-cli [-h] [--version] all|opml|add|favorites|latest|view
