@@ -16,7 +16,7 @@ class BaseClient {
         auto rq = Request();
         auto rs = rq.get(this.baseUrl ~ url);
         auto str = cast(string) (rs.responseBody);
-        if (rs.code > 399) {
+        if (rs.code < 200 || rs.code > 399) {
             throw new ApiError(rs.code, ValidationError.empty(str));
         }
         return str;

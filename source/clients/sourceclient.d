@@ -30,7 +30,6 @@ class SourceClient: BaseClient {
         auto json = newSource.serializeToJson();
         auto r = postContent(baseUrl ~ api ~ "/sources", json);
         auto rq = Request();
-        rq.method("post");
         auto rs = rq.post(baseUrl ~ api ~ "/sources", json);
         auto str = cast(string) (rs.responseBody);
         if (rs.code > 399) {
